@@ -1,8 +1,8 @@
 {
-  "name": "react-material-select",
+  "name": "react-material-ui-select",
   "main": "lib/index.js",
   "license": "MIT",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "keywords": [
     "react",
     "material",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leshek-pawlak/react-material-select"
+    "url": "https://github.com/mobylogix/react-material-select"
   },
-  "homepage": "http://react-material-select.netlify.com/",
+  "homepage": "https://www.mobylogix.com",
   "author": {
-    "email": "leshekpawlak@gmail.com",
-    "name": "Leszek Pawlak"
+    "email": "arslan@mobylogix.com",
+    "name": "Arslan Nasir <Mobylogix>"
   },
   "dependencies": {
     "classnames": "^2.2.5",
