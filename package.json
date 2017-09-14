@@ -24,7 +24,9 @@
     "name": "Leszek Pawlak"
   },
   "dependencies": {
-    "classnames": "^2.2.5"
+    "classnames": "^2.2.5",
+    "material-ui": "^0.19.1",
+    "prop-types": "^15.5.10"
   },
   "peerDependencies": {
     "react": "0.14.x || ^15.0.0-rc",

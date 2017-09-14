@@ -1,5 +1,7 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types';
 import classNames from 'classnames'
+import ExpandMoreIcon from 'material-ui/svg-icons/navigation/expand-more';
 
 class ReactMaterialSelect extends Component {
     constructor(props) {
@@ -170,7 +172,7 @@ class ReactMaterialSelect extends Component {
                 <span>{this.state.selected.label ? this.state.selected.label : label}</span>
             </div>
             <label className="rms-label">{label}</label>
-            <i onClick={this.handleToggleSelect} className="rms-caret">arrow_drop_down</i>
+            <ExpandMoreIcon onClick={this.handleToggleSelect} />
             {this.state.isOpen && <ul ref="rmsList" className='rms-list' style={{ top: this.state.rmsListTopValue }}>
                 {
                     resetLabel
